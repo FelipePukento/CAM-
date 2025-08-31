@@ -2,13 +2,13 @@
 venv/
 .env/
 .venv/
+# Ignorar todo en models excepto el marcador
+models/*
+!models/.gitkeep
 
-# Modelos pesados (YOLO, etc.)
-models/*.pt
-models/*.onnx
-
-# Videos de prueba
+# Ignorar todo en video excepto el marcador
 video/*
+!video/.gitkeep
 
 # Archivos temporales de Python
 __pycache__/
