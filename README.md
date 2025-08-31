@@ -26,7 +26,7 @@ python cam-test-PVE.py      # variante con ajustes de tiempo real (si la estás 
 - **CSV opcional** con agregados por frame.
 
 ## Requisitos
-- Python 3.9+  
+- Python 3.11  
 - GPU NVIDIA (opcional, recomendado) con drivers/CUDA compatibles para PyTorch.
 - Paquetes (ver `requirements.txt`):  
   - `ultralytics`, `torch`/`torchvision` (CUDA si aplica), `opencv-python`, `numpy`…
