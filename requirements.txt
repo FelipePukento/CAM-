@@ -1,0 +1,15 @@
+# requirements.txt
+# PyTorch con CUDA 12.1
+#pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+#torch
+#torchvision
+#torchaudio
+
+# Ultralytics YOLOv8
+ultralytics
+
+# OpenCV
+opencv-python
+
+# NumPy
+numpy

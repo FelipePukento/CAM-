@@ -1,0 +1,25 @@
+# Entorno virtual
+venv/
+.env/
+.venv/
+
+# Modelos pesados (YOLO, etc.)
+models/*.pt
+models/*.onnx
+
+# Videos de prueba
+video/*
+
+# Archivos temporales de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Configs locales (editores/IDE)
+.vscode/
+.idea/
