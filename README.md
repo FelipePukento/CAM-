@@ -1,4 +1,4 @@
-# CAM-IA — Detección de atención grupal (YOLO + Pose)
+# CAM-AMFS — Detección de atención grupal (YOLO + Pose)
 
 ## TL;DR (uso rápido)
 ```bash
@@ -37,12 +37,12 @@ python cam-test-PVE.py      # variante con ajustes de tiempo real (si la estás 
 ```
 CAM-IA/
 ├─ models/                 # colocar aquí: yolo11x.pt, yolo11x-pose.pt
-├─ utils/                  # (si usas helpers propios)
+├─ utils/                  # (Modificador de video para mejor rendimiento del modelo)
 ├─ venv/                   # entorno virtual (opcional)
 ├─ video/
 │  └─ Clase-R_preproc.mp4  # video de prueba / entrada
-├─ cam-test.py             # script principal (2 etapas det->pose)
-├─ cam-test-PVE.py         # variante con “gobernador” de tiempo real (opcional)
+├─ cam-test.py             # script inicial (2 etapas det->pose)
+├─ cam-test-PVE.py         # Script principal con keypoints [MAYOR RENDIMIENTO]
 ├─ requirements.txt
 └─ README.md
 ```
