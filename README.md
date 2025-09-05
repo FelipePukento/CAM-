@@ -1,4 +1,4 @@
-# CAM-AMFS — Detección de atención grupal (YOLO + Pose)
+# CAM-AMFS — Detección de atención grupal [Attention Metrics For Studets](YOLO + Pose)
 
 ## TL;DR (uso rápido)
 ```bash
